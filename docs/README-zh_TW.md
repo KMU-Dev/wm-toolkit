@@ -1,6 +1,6 @@
 # WM Downloader
 
-[![Build Status](https://jenkins.webzyno.com/buildStatus/icon?job=KMU+Development+Team%2Fmeetify%2Fmaster)](https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/meetify/job/master/)
+[![Build Status](https://jenkins.webzyno.com/buildStatus/icon?job=KMU+Development+Team%2Fwm-downloader%2Fmaster)](https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-downloader/job/master/)
 ![GitHub](https://img.shields.io/github/license/KMU-Dev/wm-downloader?color=blue)
 
 高醫 E Learning 檔案下載器 TamperMonkey 腳本。

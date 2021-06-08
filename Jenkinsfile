@@ -24,7 +24,7 @@ pipeline {
     }
     post {
         always {
-            archiveArtifacts artifacts: 'dist/meetify.*.js', fingerprint: true
+            archiveArtifacts artifacts: 'dist/wm-downloader.*.js', fingerprint: true
         }
     }
 }
