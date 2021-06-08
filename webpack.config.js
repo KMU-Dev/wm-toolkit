@@ -44,8 +44,8 @@ module.exports = {
                 ],
                 noframes: true,
                 homepage: "https://github.com/KMU-Dev/wm-downloader",
-                updateURL: "https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/meetify/job/master/lastSuccessfulBuild/artifact/dist/meetify.meta.js",
-                downloadURL: "https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/meetify/job/master/lastSuccessfulBuild/artifact/dist/meetify.user.js",
+                updateURL: "https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-downloader/job/master/lastSuccessfulBuild/artifact/dist/wm-downloader.meta.js",
+                downloadURL: "https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-downloader/job/master/lastSuccessfulBuild/artifact/dist/wm-downloader.user.js",
                 supportURL: "https://github.com/KMU-Dev/wm-downloader/issues",
             },
             proxyScript: {

@@ -25,9 +25,9 @@ Click following button to download Tampermonkey.
 
 Follow the link below and then click install button on TamperMonkey script installation page.
 
-Download link: https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/meetify/job/master/lastSuccessfulBuild/artifact/dist/meetify.user.js
+Download link: https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-downloader/job/master/lastSuccessfulBuild/artifact/dist/wm-downloader.user.js
 
-Fingerprint: https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/meetify/job/master/lastSuccessfulBuild/artifact/dist/meetify.user.js/*fingerprint*/
+Fingerprint: https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-downloader/job/master/lastSuccessfulBuild/artifact/dist/wm-downloader.user.js/*fingerprint*/
 
 We use our Jenkins server to build this project. So if you are unsatisfied with that, you can build it on your own. Our project is open source!
 
