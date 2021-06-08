@@ -1,10 +1,8 @@
 # WM Downloader
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Build Status](https://jenkins.webzyno.com/buildStatus/icon?job=KMU+Development+Team%2Fwm-downloader%2Fmaster)](https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-downloader/job/master/)
 ![GitHub](https://img.shields.io/github/license/KMU-Dev/wm-downloader?color=blue)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
 KMU E-Learning file downloader tampermonkey script.
 

@@ -2,6 +2,7 @@
 
 [![Build Status](https://jenkins.webzyno.com/buildStatus/icon?job=KMU+Development+Team%2Fwm-downloader%2Fmaster)](https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-downloader/job/master/)
 ![GitHub](https://img.shields.io/github/license/KMU-Dev/wm-downloader?color=blue)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
 高醫 E Learning 檔案下載器 TamperMonkey 腳本。
 
@@ -41,6 +42,20 @@
 ## 貢獻者 ✨
 
 給予那些優秀的人最大的感謝：
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ZhaoTzuHsien"><img src="https://avatars.githubusercontent.com/u/37932792?v=4?s=100" width="100px;" alt=""/><br /><sub><b>趙子賢</b></sub></a><br /><a href="https://github.com/KMU-Dev/wm-downloader/commits?author=ZhaoTzuHsien" title="Code">💻</a> <a href="#ideas-ZhaoTzuHsien" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/KMU-Dev/wm-downloader/commits?author=ZhaoTzuHsien" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 此專案遵循 [all-contributors](https://github.com/all-contributors/all-contributors) 的定義，任何形式的貢獻都是非常歡迎的!
 
