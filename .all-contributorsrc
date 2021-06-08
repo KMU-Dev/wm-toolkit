@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "ZhaoTzuHsien",
+      "name": "趙子賢",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37932792?v=4",
+      "profile": "https://github.com/ZhaoTzuHsien",
+      "contributions": [
+        "code",
+        "ideas",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "wm-downloader",
+  "projectOwner": "KMU-Dev",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
