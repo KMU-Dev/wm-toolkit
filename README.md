@@ -2,6 +2,7 @@
 
 [![Build Status](https://jenkins.webzyno.com/buildStatus/icon?job=KMU+Development+Team%2Fwm-downloader%2Fmaster)](https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-downloader/job/master/)
 ![GitHub](https://img.shields.io/github/license/KMU-Dev/wm-downloader?color=blue)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
 KMU E-Learning file downloader tampermonkey script.
 
@@ -43,6 +44,19 @@ Go to our [GitHub issue tracker](https://github.com/KMU-Dev/wm-downloader/issues
 ## Contributors ✨
 
 Thanks goes to these wonderful people:
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ZhaoTzuHsien"><img src="https://avatars.githubusercontent.com/u/37932792?v=4?s=100" width="100px;" alt=""/><br /><sub><b>趙子賢</b></sub></a><br /><a href="https://github.com/KMU-Dev/wm-downloader/commits?author=ZhaoTzuHsien" title="Code">💻</a> <a href="#ideas-ZhaoTzuHsien" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/KMU-Dev/wm-downloader/commits?author=ZhaoTzuHsien" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
