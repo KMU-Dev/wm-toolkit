@@ -33,7 +33,7 @@ module.exports = {
                 name: "WM Downloader",
                 namespace: "https://github.com/KMU-Dev/wm-downloader",
                 version: dev ? `[version]-build.[buildNo]` : `[version]`,
-                description: "Google Meet notification tampermonkey script",
+                description: "KMU E-Learning file downloader.",
                 author: "Chao Tzu-Hsien",
                 match: ["https://wm.kmu.edu.tw/*"],
                 icon: "https://wm.kmu.edu.tw/base/10001/door/tpl/icon.ico",
