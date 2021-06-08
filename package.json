@@ -1,0 +1,28 @@
+{
+  "name": "wm-downloader",
+  "version": "0.1.0",
+  "description": "KMU E-Learning file downloader.",
+  "main": "src/index.js",
+  "repository": "https://github.com/KMU-Dev/wm-downloader",
+  "author": "趙子賢 <danny900714@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack server",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.5",
+    "@types/tampermonkey": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "ts-loader": "^9.2.2",
+    "typescript": "^4.2.4",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-userscript": "^2.5.8"
+  }
+}

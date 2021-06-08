@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+spec:
+  containers:  # list of containers that you want present for your build, you can define a default container in the Jenkinsfile
+    - name: node
+      image: node:lts
+      command: ["tail", "-f", "/dev/null"]  # this or any command that is bascially a noop is required, this is so that you don't overwrite the entrypoint of the base container
+      # imagePullPolicy: Always # use cache or pull image for agent
+      # volumeMounts:
+        # - name: docker
+          # mountPath: /var/run/docker.sock
+  # volumes:
+    # - name: docker
+      # hostPath:
+        # path: /var/run/docker.sock
