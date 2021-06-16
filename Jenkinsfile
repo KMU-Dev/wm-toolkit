@@ -5,7 +5,7 @@ pipeline {
     }
     agent {
         kubernetes {
-            label 'wm-loader-build'
+            label 'wm-toolkit-build'
             yamlFile 'ci/build-pod.yaml'
             defaultContainer 'node'
         }
@@ -24,7 +24,7 @@ pipeline {
     }
     post {
         always {
-            archiveArtifacts artifacts: 'dist/wm-downloader.*.js', fingerprint: true
+            archiveArtifacts artifacts: 'dist/wm-toolkit.*.js', fingerprint: true
         }
     }
 }
