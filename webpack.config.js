@@ -37,6 +37,7 @@ module.exports = {
                 author: "Chao Tzu-Hsien",
                 match: ["https://wm.kmu.edu.tw/*"],
                 icon: "https://wm.kmu.edu.tw/base/10001/door/tpl/icon.ico",
+                "run-at": "document-start",
                 grant: [
                     "GM_download",
                     "GM_registerMenuCommand",
