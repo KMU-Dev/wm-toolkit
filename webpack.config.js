@@ -20,7 +20,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "wm-downloader.user.js",
+        filename: "wm-toolkit.user.js",
     },
     devServer: {
         contentBase: path.resolve(__dirname, "dist"),
@@ -30,10 +30,10 @@ module.exports = {
     plugins: [
         new WebpackUserscript({
             headers: {
-                name: "WM Downloader",
-                namespace: "https://github.com/KMU-Dev/wm-downloader",
+                name: "WM Toolkit",
+                namespace: "https://github.com/KMU-Dev/wm-toolkit",
                 version: dev ? `[version]-build.[buildNo]` : `[version]`,
-                description: "KMU E-Learning file downloader.",
+                description: "KMU E-Learning toolkit.",
                 author: "Chao Tzu-Hsien",
                 match: ["https://wm.kmu.edu.tw/*"],
                 icon: "https://wm.kmu.edu.tw/base/10001/door/tpl/icon.ico",
@@ -44,10 +44,10 @@ module.exports = {
                     "GM_info",
                 ],
                 noframes: true,
-                homepage: "https://github.com/KMU-Dev/wm-downloader",
-                updateURL: "https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-downloader/job/master/lastSuccessfulBuild/artifact/dist/wm-downloader.meta.js",
-                downloadURL: "https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-downloader/job/master/lastSuccessfulBuild/artifact/dist/wm-downloader.user.js",
-                supportURL: "https://github.com/KMU-Dev/wm-downloader/issues",
+                homepage: "https://github.com/KMU-Dev/wm-toolkit",
+                updateURL: "https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-toolkit/job/master/lastSuccessfulBuild/artifact/dist/wm-toolkit.meta.js",
+                downloadURL: "https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-toolkit/job/master/lastSuccessfulBuild/artifact/dist/wm-toolkit.user.js",
+                supportURL: "https://github.com/KMU-Dev/wm-toolkit/issues",
             },
             proxyScript: {
                 baseUrl: "http://127.0.0.1:8080",
