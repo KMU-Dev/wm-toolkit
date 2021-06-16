@@ -4,7 +4,7 @@
 ![GitHub](https://img.shields.io/github/license/KMU-Dev/wm-toolkit?color=blue)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
-KMU E-Learning utilities tampermonkey script.
+KMU E-Learning toolkit tampermonkey script.
 
 Translations: [繁體中文](docs/README-zh_TW.md)
 
