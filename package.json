@@ -1,6 +1,6 @@
 {
   "name": "wm-downloader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "KMU E-Learning file downloader.",
   "main": "src/index.js",
   "repository": "https://github.com/KMU-Dev/wm-downloader",
