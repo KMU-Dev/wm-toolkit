@@ -13,6 +13,7 @@ Translations: [繁體中文](docs/README-zh_TW.md)
 - [x] Download video from start classes section.
 - [x] Remove Window Lock in exam.
 - [x] Set category in question creation page.
+  *(If you want to change block, go to script edit page and click storage tab)*
 
 ## Keyboard shortcuts
 
