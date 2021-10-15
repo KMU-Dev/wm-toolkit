@@ -12,6 +12,21 @@ Translations: [繁體中文](docs/README-zh_TW.md)
 
 - [x] Download video from start classes section.
 - [x] Remove Window Lock in exam.
+- [x] Set category in question creation page.
+  *(If you want to change block, go to script edit page and click storage tab)*
+
+## Keyboard shortcuts
+
+Shortcuts         | Action
+------------------|---------------------
+Alt+1             | Embryology
+Alt+2             | Microbio-Immunology
+Alt+3             | Parasitology
+Alt+4             | Public Health
+Alt+5             | Clinical Knowledge
+Alt+6             | Physiology
+Alt+7             | Pharmacology
+Alt+8             | Pathology
 
 ## Installation
 

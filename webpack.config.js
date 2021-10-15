@@ -42,6 +42,8 @@ module.exports = {
                     "GM_download",
                     "GM_registerMenuCommand",
                     "GM_info",
+                    "GM_getValue",
+                    "GM_setValue",
                 ],
                 noframes: true,
                 homepage: "https://github.com/KMU-Dev/wm-toolkit",
