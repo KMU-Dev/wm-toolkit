@@ -2,6 +2,7 @@ import CommandHandler from "../command/CommandHandler"
 import DownloadVideoCommand from "../command/DownloadVideoCommand";
 import KeyboardCommandHandler from "../command/KeyboardCommandHandler";
 import SetCategoryCommand from "../command/SetCategoryCommand";
+import TestFillInCommand from "../command/TestFillInCommand";
 
 export default class Application {
 
@@ -13,18 +14,27 @@ export default class Application {
         this.registerCommand("下載影片", DownloadVideoCommand, "v");
 
         // register keyboard commands
-        this.registerKeyboardCommandInCMain(SetCategoryCommand);
+        this.registerKeyboardCommandInCMain(SetCategoryCommand, TestFillInCommand);
 
         // remove winlock
         this.removeWinlock();
     }
 
     private initStorage() {
-        const block = GM_getValue('block');
-        if (!block) {
-            GM_setValue('block', 1);
-            console.log('Staorage initialized');
-        }
+        GM_getValue('block') || GM_setValue('block', 1);
+        GM_getValue('targets') || GM_setValue('targets', [
+            '108001005',
+            '108001020',
+            '108001033',
+            '108001058',
+            '108001070',
+            '108001079',
+            '108001117',
+            '108001121',
+            '108001131',
+            '108001136',
+        ]);
+        console.log('Storage initialized');
     }
 
     private registerCommand(name: string, Handler: Type<CommandHandler>, accessKey: string) {
