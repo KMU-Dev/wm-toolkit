@@ -14,11 +14,12 @@ Translations: [繁體中文](docs/README-zh_TW.md)
 - [x] Remove Window Lock in exam.
 - [x] Set category in question creation page.
   *(If you want to change block, go to script edit page and click storage tab)*
+- [x] Auto-fill test information. (You only need to type test name and description)
 
 ## Keyboard shortcuts
 
 Shortcuts         | Action
-------------------|---------------------
+------------------|-----------------------------
 Alt+1             | Embryology
 Alt+2             | Microbio-Immunology
 Alt+3             | Parasitology
@@ -27,6 +28,7 @@ Alt+5             | Clinical Knowledge
 Alt+6             | Physiology
 Alt+7             | Pharmacology
 Alt+8             | Pathology
+Alt+t             | Auto-fill Test Information
 
 ## Installation
 
