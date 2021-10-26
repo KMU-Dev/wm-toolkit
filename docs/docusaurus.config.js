@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'WM Toolkit',
+  tagline: 'KMU E-Learning toolkit tampermonkey script',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'KMU-Dev', // Usually your GitHub org/user name.
+  projectName: 'wm-toolkit', // Usually your repo name.
 
   presets: [
     [
@@ -43,21 +43,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'WM Toolkit',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'WM Toolkit Logo',
+          src: 'img/favicon.ico',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '教學',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/KMU-Dev/wm-toolkit',
             label: 'GitHub',
             position: 'right',
           },
@@ -67,18 +67,22 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文件',
             items: [
               {
-                label: 'Tutorial',
+                label: '教學',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '社群',
             items: [
               {
+                label: 'KMU E-Learning',
+                href: 'https://wm.kmu.edu.tw',
+              },
+              /* {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
@@ -89,24 +93,24 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/docusaurus',
-              },
+              }, */
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
-              {
+              /* {
                 label: 'Blog',
                 to: '/blog',
-              },
+              }, */
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/KMU-Dev/wm-toolkit',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} KMU Development Team, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
