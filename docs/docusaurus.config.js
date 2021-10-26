@@ -71,7 +71,11 @@ const config = {
             items: [
               {
                 label: '教學',
-                to: '/docs/intro',
+                to: '/docs',
+              },
+              {
+                label: '考古製作',
+                to: '/docs/past-exam/claim-exam',
               },
             ],
           },
