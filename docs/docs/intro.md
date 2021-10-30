@@ -28,4 +28,4 @@ title: 簡介
 
 考古製作教學：[認領考古](past-exam/claim-exam.md)
 
-WM Toolkit 插件使用教學：
+WM Toolkit 插件使用教學：[插件安裝](extension/install.md)

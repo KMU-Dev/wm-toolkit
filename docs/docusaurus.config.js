@@ -77,6 +77,10 @@ const config = {
                 label: '考古製作',
                 to: '/docs/past-exam/claim-exam',
               },
+              {
+                label: '插件',
+                to: '/docs/extension/install',
+              },
             ],
           },
           {
