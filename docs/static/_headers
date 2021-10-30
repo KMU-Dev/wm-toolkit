@@ -1,0 +1,3 @@
+# configuration CORS
+/configuration.yaml
+    Access-Control-Allow-Origin: https://wm.kmu.edu.tw
