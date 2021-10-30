@@ -124,6 +124,10 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      gtag: {
+        // You can also use your "G-" Measurement ID here.
+        trackingID: 'G-XRHJS73HRQ',
+      },
     }),
 };
 
