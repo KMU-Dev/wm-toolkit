@@ -11,7 +11,7 @@ export default class ChangelogService {
 
         if (!lastVersion || version !== lastVersion) {
             const remote: string = GM_getValue('remote');
-            const changelog = new URL(`/docs/changelog#${version}`, remote).toString();
+            const changelog = new URL(`/docs/changelog`, remote).toString();
             GM_openInTab(changelog, { active: true, setParent: true });
 
             GM_setValue('last_version', version);
