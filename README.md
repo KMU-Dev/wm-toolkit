@@ -6,7 +6,7 @@
 
 KMU E-Learning toolkit tampermonkey script.
 
-Translations: [繁體中文](docs/README-zh_TW.md)
+Translations: [繁體中文](README-zh_TW.md)
 
 ## Features
 
