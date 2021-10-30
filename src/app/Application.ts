@@ -3,17 +3,20 @@ import DownloadVideoCommand from "../command/DownloadVideoCommand";
 import KeyboardCommandHandler from "../command/KeyboardCommandHandler";
 import SetCategoryCommand from "../command/SetCategoryCommand";
 import TestFillInCommand from "../command/TestFillInCommand";
+import ChangelogService from "../service/changelog.service";
 import RemoteConfigService from "../service/remote-config.service";
 
 export default class Application {
 
     private readonly remoteConfigService: RemoteConfigService;
+    private readonly changelogService: ChangelogService;
 
     constructor() {
         // init storage
         this.initStorage();
         
         this.remoteConfigService = new RemoteConfigService();
+        this.changelogService = new ChangelogService();
     }
 
     async start() {
@@ -28,6 +31,9 @@ export default class Application {
 
         // remove winlock
         this.removeWinlock();
+
+        // show changelog when update
+        this.changelogService.showChangelog();
     }
 
     private initStorage() {

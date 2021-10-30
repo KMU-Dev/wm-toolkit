@@ -44,6 +44,7 @@ module.exports = {
                     "GM_info",
                     "GM_getValue",
                     "GM_setValue",
+                    "GM_openInTab",
                 ],
                 noframes: true,
                 homepage: "https://github.com/KMU-Dev/wm-toolkit",
