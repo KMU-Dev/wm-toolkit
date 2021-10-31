@@ -1,6 +1,10 @@
 # yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
 name: Build userscript
-on: [push, pull_request, release]
+on: 
+  push: 
+  pull_request:
+  release:
+    types: [published]
 jobs:
   build:
     name: Build
