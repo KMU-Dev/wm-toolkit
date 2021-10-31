@@ -1,6 +1,6 @@
 # WM Toolkit
 
-[![Build Status](https://jenkins.webzyno.com/buildStatus/icon?job=KMU+Development+Team%2Fwm-toolkit%2Fmaster)](https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-toolkit/job/master/)
+[![Build userscript](https://github.com/KMU-Dev/wm-toolkit/actions/workflows/build.yaml/badge.svg)](https://github.com/KMU-Dev/wm-toolkit/actions/workflows/build.yaml)
 ![GitHub](https://img.shields.io/github/license/KMU-Dev/wm-toolkit?color=blue)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
