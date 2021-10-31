@@ -1,8 +1,9 @@
 # WM Toolkit
 
-[![Build Status](https://jenkins.webzyno.com/buildStatus/icon?job=KMU+Development+Team%2Fwm-toolkit%2Fmaster)](https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-toolkit/job/master/)
+[![Build userscript](https://github.com/KMU-Dev/wm-toolkit/actions/workflows/build.yaml/badge.svg)](https://github.com/KMU-Dev/wm-toolkit/actions/workflows/build.yaml)
 ![GitHub](https://img.shields.io/github/license/KMU-Dev/wm-toolkit?color=blue)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+![GitHub release (latest by SemVer and asset)](https://img.shields.io/github/downloads/KMU-Dev/wm-toolkit/latest/wm-toolkit.user.js?color=blueviolet)
 
 KMU E-Learning toolkit tampermonkey script.
 
@@ -44,11 +45,9 @@ Click following button to download Tampermonkey.
 
 Follow the link below and then click install button on TamperMonkey script installation page.
 
-Download link: https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-toolkit/job/master/lastSuccessfulBuild/artifact/dist/wm-toolkit.user.js
+Download link: https://github.com/KMU-Dev/wm-toolkit/releases/latest/download/wm-toolkit.user.js
 
-Fingerprint: https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-toolkit/job/master/lastSuccessfulBuild/artifact/dist/wm-toolkit.user.js/*fingerprint*/
-
-We use our Jenkins server to build this project. So if you are unsatisfied with that, you can build it on your own. Our project is open source!
+We use GitHub Action to build this project. So if you are unsatisfied with that, you can build it on your own. Our project is open source!
 
 ## Update
 

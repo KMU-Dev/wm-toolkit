@@ -1,0 +1,56 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+name: Build userscript
+on: 
+  push: 
+  pull_request:
+  release:
+    types: [published]
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        name: Checkout
+      - uses: actions/setup-node@v2
+        name: Setup Node.js environment
+        with:
+          node-version: '16.13.0'
+          cache: 'yarn'
+      - run: yarn install
+        name: Install dependencies
+      - run: yarn build
+        name: Build userscript
+      - uses: actions/upload-artifact@v2
+        name: Save userscript as artifact
+        with:
+          name: userscript
+          path: dist/wm-toolkit.*.js
+  release:
+    name: Upload release assets
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'release' && github.event.action == 'published' }}
+    needs: build
+    steps:
+      - uses: actions/download-artifact@v2
+        name: Download userscript from artifact
+        with:
+          name: userscript
+      - uses: actions/upload-release-asset@v1
+        name: upload userscript to GitHub release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./wm-toolkit.user.js
+          asset_name: wm-toolkit.user.js
+          asset_content_type: application/javascript
+      - uses: actions/upload-release-asset@v1
+        name: upload userscript meta to GitHub release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./wm-toolkit.meta.js
+          asset_name: wm-toolkit.meta.js
+          asset_content_type: application/javascript

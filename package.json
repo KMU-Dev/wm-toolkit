@@ -1,6 +1,6 @@
 {
   "name": "wm-downloader",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "KMU E-Learning file downloader.",
   "main": "src/index.js",
   "repository": "https://github.com/KMU-Dev/wm-downloader",
@@ -12,10 +12,14 @@
     "build": "webpack"
   },
   "dependencies": {
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "js-yaml": "^4.1.0",
+    "ms": "^2.1.3"
   },
   "devDependencies": {
     "@types/jquery": "^3.5.5",
+    "@types/js-yaml": "^4.0.4",
+    "@types/ms": "^0.7.31",
     "@types/tampermonkey": "^4.0.0",
     "cross-env": "^7.0.3",
     "ts-loader": "^9.2.2",

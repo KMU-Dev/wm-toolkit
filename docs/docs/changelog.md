@@ -1,0 +1,28 @@
+---
+sidebar_position: 4
+title: 更新日誌
+---
+
+## 0.4.0 {#0-4-0}
+
+![GitHub release (latest by SemVer and asset)](https://img.shields.io/github/downloads/KMU-Dev/wm-toolkit/v0.4.0/wm-toolkit.user.js?color=blueviolet)
+
+### 🚀 新功能
+
+- 新增遠端設定功能，往後即便換到下一個 Block，使用者不必更新插件，插件會自行向伺服器取得 Block 和測驗人員資訊。
+- 當插件更新時，會自動顯示更新日誌
+
+### 🐛 抓臭蟲
+
+- 這個版本沒有發現任何臭蟲，如果你不小心抓到一個，請盡快告訴我們  
+https://github.com/KMU-Dev/wm-toolkit/issues
+
+### 🧰 維護
+
+- 更新了下載網址和更新網址，我們的建置伺服器從 Jenkins 改成 GitHub Action 了
+- 更新了許多相依套件的版本
+
+### 📝 文件
+
+- 我們的文件網站正式上線啦！ https://wm.kmu.webzyno.com
+- 新增了考古製作和插件的使用教學

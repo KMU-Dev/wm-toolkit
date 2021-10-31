@@ -3,12 +3,25 @@ import DownloadVideoCommand from "../command/DownloadVideoCommand";
 import KeyboardCommandHandler from "../command/KeyboardCommandHandler";
 import SetCategoryCommand from "../command/SetCategoryCommand";
 import TestFillInCommand from "../command/TestFillInCommand";
+import ChangelogService from "../service/changelog.service";
+import RemoteConfigService from "../service/remote-config.service";
 
 export default class Application {
 
-    start() {
+    private readonly remoteConfigService: RemoteConfigService;
+    private readonly changelogService: ChangelogService;
+
+    constructor() {
         // init storage
         this.initStorage();
+        
+        this.remoteConfigService = new RemoteConfigService();
+        this.changelogService = new ChangelogService();
+    }
+
+    async start() {
+        // sync remote config
+        await this.remoteConfigService.sync();
 
         // register commands
         this.registerCommand("下載影片", DownloadVideoCommand, "v");
@@ -18,22 +31,14 @@ export default class Application {
 
         // remove winlock
         this.removeWinlock();
+
+        // show changelog when update
+        this.changelogService.showChangelog();
     }
 
     private initStorage() {
-        GM_getValue('block') || GM_setValue('block', 1);
-        GM_getValue('targets') || GM_setValue('targets', [
-            '108001005',
-            '108001020',
-            '108001033',
-            '108001058',
-            '108001070',
-            '108001079',
-            '108001117',
-            '108001121',
-            '108001131',
-            '108001136',
-        ]);
+        GM_getValue('remote') || GM_setValue('remote', 'https://wm.kmu.webzyno.com');
+        GM_getValue('sync_interval') || GM_setValue('sync_interval', '30m');
         console.log('Storage initialized');
     }
 

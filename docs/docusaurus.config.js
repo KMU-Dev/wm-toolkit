@@ -77,6 +77,10 @@ const config = {
                 label: '考古製作',
                 to: '/docs/past-exam/claim-exam',
               },
+              {
+                label: '插件',
+                to: '/docs/extension/install',
+              },
             ],
           },
           {
@@ -119,6 +123,10 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      gtag: {
+        // You can also use your "G-" Measurement ID here.
+        trackingID: 'G-XRHJS73HRQ',
       },
     }),
 };
