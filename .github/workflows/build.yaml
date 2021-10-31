@@ -6,13 +6,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        name: Checkout
       - uses: actions/setup-node@v2
+        name: Setup Node.js environment
         with:
           node-version: '16.13.0'
           cache: 'yarn'
       - run: yarn install
+        name: Install dependencies
       - run: yarn build
+        name: Build userscript
       - uses: actions/upload-artifact@v2
+        name: Save userscript as artifact
         with:
           name: userscript
           path: dist/wm-toolkit.*.js
@@ -21,9 +26,11 @@ jobs:
     if: ${{ github.event_name == 'release' && github.event.action == 'published' }}
     steps:
       - uses: actions/download-artifact@v2
+        name: Download userscript from artifact
         with:
           name: userscript
       - uses: actions/upload-release-asset@v1
+        name: upload userscript to GitHub release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -31,6 +38,7 @@ jobs:
           asset_path: ./wm-toolkit.user.js
           asset_name: wm-toolkit.user.js
       - uses: actions/upload-release-asset@v1
+        name: upload userscript meta to GitHub release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
