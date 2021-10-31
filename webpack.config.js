@@ -48,8 +48,8 @@ module.exports = {
                 ],
                 noframes: true,
                 homepage: "https://github.com/KMU-Dev/wm-toolkit",
-                updateURL: "https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-toolkit/job/master/lastSuccessfulBuild/artifact/dist/wm-toolkit.meta.js",
-                downloadURL: "https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-toolkit/job/master/lastSuccessfulBuild/artifact/dist/wm-toolkit.user.js",
+                updateURL: "https://github.com/KMU-Dev/wm-toolkit/releases/latest/download/wm-toolkit.meta.js",
+                downloadURL: "https://github.com/KMU-Dev/wm-toolkit/releases/latest/download/wm-toolkit.user.js",
                 supportURL: "https://github.com/KMU-Dev/wm-toolkit/issues",
             },
             proxyScript: {
