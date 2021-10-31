@@ -1,5 +1,6 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
 name: Build userscript
-on: [push, pull_request]
+on: [push, pull_request, release]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,3 +16,24 @@ jobs:
         with:
           name: userscript
           path: dist/wm-toolkit.*.js
+  release:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'release' && github.event.action == 'published' }}
+    steps:
+      - uses: actions/download-artifact@v2
+        with:
+          name: userscript
+      - uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./wm-toolkit.user.js
+          asset_name: wm-toolkit.user.js
+      - uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./wm-toolkit.meta.js
+          asset_name: wm-toolkit.meta.js
