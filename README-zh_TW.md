@@ -3,6 +3,7 @@
 [![Build userscript](https://github.com/KMU-Dev/wm-toolkit/actions/workflows/build.yaml/badge.svg)](https://github.com/KMU-Dev/wm-toolkit/actions/workflows/build.yaml)
 ![GitHub](https://img.shields.io/github/license/KMU-Dev/wm-toolkit?color=blue)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+![GitHub release (latest by SemVer and asset)](https://img.shields.io/github/downloads/KMU-Dev/wm-toolkit/latest/wm-toolkit.user.js?color=blueviolet)
 
 高醫 E Learning 工具包 TamperMonkey 腳本。
 
