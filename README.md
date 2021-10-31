@@ -44,11 +44,9 @@ Click following button to download Tampermonkey.
 
 Follow the link below and then click install button on TamperMonkey script installation page.
 
-Download link: https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-toolkit/job/master/lastSuccessfulBuild/artifact/dist/wm-toolkit.user.js
+Download link: https://github.com/KMU-Dev/wm-toolkit/releases/latest/download/wm-toolkit.user.js
 
-Fingerprint: https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-toolkit/job/master/lastSuccessfulBuild/artifact/dist/wm-toolkit.user.js/*fingerprint*/
-
-We use our Jenkins server to build this project. So if you are unsatisfied with that, you can build it on your own. Our project is open source!
+We use GitHub Action to build this project. So if you are unsatisfied with that, you can build it on your own. Our project is open source!
 
 ## Update
 

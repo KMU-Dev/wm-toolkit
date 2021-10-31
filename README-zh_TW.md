@@ -42,11 +42,9 @@ Alt+t             | 自動填入測驗資訊
 
 點擊下面的下載連結，它將會帶你到 TamperMonkey 的腳本安裝頁面，點選安裝按鈕即可將 WM Toolkit 新增到 TamperMonkey，如此便完稱安裝啦！
 
-下載連結: https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-toolkit/job/master/lastSuccessfulBuild/artifact/dist/wm-toolkit.user.js
+下載連結: https://github.com/KMU-Dev/wm-toolkit/releases/latest/download/wm-toolkit.user.js
 
-指紋: https://jenkins.webzyno.com/job/KMU%20Development%20Team/job/wm-toolkit/job/master/lastSuccessfulBuild/artifact/dist/wm-toolkit.user.js/*fingerprint*/
-
-我們使用 Jenkins 來建置我們的專案，如果你對此不滿意，你可以自己建構。我們擁抱開源軟體！
+我們使用 GitHub Action 來建置我們的專案，如果你對此不滿意，你可以自己建構。我們擁抱開源軟體！
 
 ## 更新
 
