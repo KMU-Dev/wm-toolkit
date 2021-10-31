@@ -40,6 +40,7 @@ jobs:
           upload_url: ${{ github.event.release.upload_url }}
           asset_path: ./wm-toolkit.user.js
           asset_name: wm-toolkit.user.js
+          asset_content_type: application/javascript
       - uses: actions/upload-release-asset@v1
         name: upload userscript meta to GitHub release
         env:
@@ -48,3 +49,4 @@ jobs:
           upload_url: ${{ github.event.release.upload_url }}
           asset_path: ./wm-toolkit.meta.js
           asset_name: wm-toolkit.meta.js
+          asset_content_type: application/javascript
