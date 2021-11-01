@@ -113,7 +113,7 @@ const config = {
               }, */
               {
                 label: 'Status',
-                href: 'https://stats.uptimerobot.com/pnp2PS9xOq',
+                href: 'https://status.kmu.webzyno.com',
               },
               {
                 label: 'GitHub',
