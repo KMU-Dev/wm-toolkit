@@ -1,20 +1,19 @@
-import CommandHandler from "../command/CommandHandler"
-import DownloadVideoCommand from "../command/DownloadVideoCommand";
-import KeyboardCommandHandler from "../command/KeyboardCommandHandler";
-import SetCategoryCommand from "../command/SetCategoryCommand";
-import TestFillInCommand from "../command/TestFillInCommand";
-import ChangelogService from "../service/changelog.service";
-import RemoteConfigService from "../service/remote-config.service";
+import CommandHandler from '../command/CommandHandler';
+import DownloadVideoCommand from '../command/DownloadVideoCommand';
+import KeyboardCommandHandler from '../command/KeyboardCommandHandler';
+import SetCategoryCommand from '../command/SetCategoryCommand';
+import TestFillInCommand from '../command/TestFillInCommand';
+import ChangelogService from '../service/changelog.service';
+import RemoteConfigService from '../service/remote-config.service';
 
 export default class Application {
-
     private readonly remoteConfigService: RemoteConfigService;
     private readonly changelogService: ChangelogService;
 
     constructor() {
         // init storage
         this.initStorage();
-        
+
         this.remoteConfigService = new RemoteConfigService();
         this.changelogService = new ChangelogService();
     }
@@ -24,7 +23,7 @@ export default class Application {
         await this.remoteConfigService.sync();
 
         // register commands
-        this.registerCommand("下載影片", DownloadVideoCommand, "v");
+        this.registerCommand('下載影片', DownloadVideoCommand, 'v');
 
         // register keyboard commands
         this.registerKeyboardCommandInCMain(SetCategoryCommand, TestFillInCommand);
@@ -66,13 +65,13 @@ export default class Application {
                     const handler = new Handler();
                     handler.handle(frameDocument, event);
                 }
-            })
+            });
         });
     }
 
     private removeWinlock() {
-        if (window.location.pathname === "/learn/exam/exam_start.php") {
-            console.log("Exam started.");
+        if (window.location.pathname === '/learn/exam/exam_start.php') {
+            console.log('Exam started.');
 
             new MutationObserver((_, observer) => {
                 const winlockScript = document.querySelector('script[src*="winlock"]');
@@ -80,15 +79,15 @@ export default class Application {
                     winlockScript.remove();
                     observer.disconnect();
                 }
-            }).observe(document, { childList: true, subtree: true});
+            }).observe(document, { childList: true, subtree: true });
         }
     }
 }
 
 type Type<T extends CommandHandler> = {
-    new (): T
+    new (): T;
 };
 
 type KeyboardCommandType<T extends KeyboardCommandHandler = KeyboardCommandHandler> = {
-    new (): T
+    new (): T;
 };
