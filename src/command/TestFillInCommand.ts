@@ -1,4 +1,4 @@
-import KeyboardCommandHandler from "./KeyboardCommandHandler";
+import KeyboardCommandHandler from './KeyboardCommandHandler';
 
 export default class TestFillInCommand extends KeyboardCommandHandler {
     readonly handle = (document: Document, event: KeyboardEvent) => {
@@ -30,5 +30,5 @@ export default class TestFillInCommand extends KeyboardCommandHandler {
         mAnnounceType.dispatchEvent(changeEvent);
         const mPublishType = document.getElementById('score_publish_type') as HTMLSelectElement;
         mPublishType.options[2].selected = true;
-    }
+    };
 }

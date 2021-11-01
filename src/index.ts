@@ -1,4 +1,7 @@
-import Application from "./app/Application";
+import Application from './app/Application';
 
 const app = new Application();
-app.start();
+app.start().catch((e) => {
+    console.error('WM Toolkit stop with error');
+    console.error(e);
+});
