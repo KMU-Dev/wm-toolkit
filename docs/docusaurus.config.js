@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'WM Toolkit',
   tagline: 'KMU E-Learning toolkit tampermonkey script',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://wm.kmu.webzyno.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -111,6 +111,10 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               }, */
+              {
+                label: 'Status',
+                href: 'https://stats.uptimerobot.com/pnp2PS9xOq',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/KMU-Dev/wm-toolkit',
