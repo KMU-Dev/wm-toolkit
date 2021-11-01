@@ -15,6 +15,10 @@ title: 認領考古
 
 考古範圍分配試算表：https://docs.google.com/spreadsheets/d/1lR2eK7eaIwhTFIGq0KTsgsOFxpvvwijs1QM7P3iSNXM/edit?usp=sharing
 
+:::info 資訊
+Block 2 期中考每人須完成** 3 份**考古。
+:::
+
 <iframe
     src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpmESQIzTcft6vQxkBEQCixQyKBD2HsaDbHTbqljTIG5XAh7rpl-bWCsx5_JdHq-GwwR835aBHmzj2/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
     width="100%"
