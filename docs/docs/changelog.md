@@ -5,8 +5,6 @@ title: 更新日誌
 
 ## 0.4.0 {#0-4-0}
 
-![GitHub release (latest by SemVer and asset)](https://img.shields.io/github/downloads/KMU-Dev/wm-toolkit/v0.4.0/wm-toolkit.user.js?color=blueviolet)
-
 ### 🚀 新功能
 
 - 新增遠端設定功能，往後即便換到下一個 Block，使用者不必更新插件，插件會自行向伺服器取得 Block 和測驗人員資訊。
