@@ -23,5 +23,15 @@ module.exports = {
     rules: {
         'prettier/prettier': 'error',
         '@typescript-eslint/restrict-template-expressions': 'off',
+        '@typescript-eslint/no-empty-function': [
+            'error',
+            {
+                'allow': ['private-constructors', 'protected-constructors', 'methods', 'asyncMethods']
+            }
+        ],
+        '@typescript-eslint/no-explicit-any': [
+            'error',
+            { 'ignoreRestArgs': true },
+        ],
     },
 };

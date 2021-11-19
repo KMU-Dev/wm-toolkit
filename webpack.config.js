@@ -41,6 +41,7 @@ module.exports = {
                 grant: [
                     "GM_download",
                     "GM_registerMenuCommand",
+                    "GM_unregisterMenuCommand",
                     "GM_info",
                     "GM_getValue",
                     "GM_setValue",

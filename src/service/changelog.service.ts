@@ -1,4 +1,12 @@
 export default class ChangelogService {
+    private static instance: ChangelogService;
+
+    static getInstance() {
+        return this.instance || (this.instance = new this());
+    }
+
+    private constructor() {}
+
     showChangelog() {
         const version = GM_info.script.version;
         const lastVersion: string | undefined = GM_getValue('last_version');

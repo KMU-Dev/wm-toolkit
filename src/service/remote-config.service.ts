@@ -2,11 +2,17 @@ import ms from 'ms';
 import yaml from 'js-yaml';
 
 export default class RemoteConfigService {
+    private static instance: RemoteConfigService;
+
     private configUrl: string;
     private syncInterval: number;
     private lastSync: Date | undefined;
 
-    constructor() {
+    static getInstance() {
+        return this.instance || (this.instance = new this());
+    }
+
+    private constructor() {
         const remote: string = GM_getValue('remote');
         this.configUrl = new URL('/configuration.yaml', remote).toString();
         this.syncInterval = ms(GM_getValue<string>('sync_interval'));
