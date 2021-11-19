@@ -1,6 +1,8 @@
 import Frame from './Frame';
 import Page from './Page';
 import { ContextType, Message } from './type';
+import set from 'lodash/set';
+import get from 'lodash/get';
 
 export default abstract class Context {
     private static readonly contexts: Context[] = [];
@@ -77,5 +79,27 @@ export default abstract class Context {
         // broadcaset message to all targets
         const message: Message = { source: this, action, value };
         for (const target of targets) target.onMessage(message);
+    }
+
+    protected setValue(name: string, value: unknown) {
+        const keys = name.split('.');
+        if (keys.length === 1) {
+            GM_setValue(name, value);
+            return;
+        }
+
+        const realname = keys[0];
+        const originalValue = GM_getValue(realname, {});
+
+        const object = set(originalValue, keys.slice(1), value);
+        GM_setValue(realname, object);
+    }
+
+    protected getValue<T>(name: string, defaultValue?: T): unknown | undefined {
+        const keys = name.split('.');
+        const value = GM_getValue(keys[0], defaultValue);
+        if (keys.length === 1) return value;
+
+        return get(value, keys.slice(1), defaultValue);
     }
 }
