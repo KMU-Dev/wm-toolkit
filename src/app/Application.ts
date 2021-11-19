@@ -14,8 +14,8 @@ export default class Application {
         // init storage
         this.initStorage();
 
-        this.remoteConfigService = new RemoteConfigService();
-        this.changelogService = new ChangelogService();
+        this.remoteConfigService = RemoteConfigService.getInstance();
+        this.changelogService = ChangelogService.getInstance();
     }
 
     async start() {
