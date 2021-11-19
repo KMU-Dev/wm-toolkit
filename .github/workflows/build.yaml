@@ -19,6 +19,9 @@ jobs:
           cache: 'yarn'
       - run: yarn install
         name: Install dependencies
+      - uses: reviewdog/action-eslint@v1
+        name: Run ES Lint
+        if: ${{ github.event_name == 'pull_request' }}
       - run: yarn build
         name: Build userscript
       - uses: actions/upload-artifact@v2
