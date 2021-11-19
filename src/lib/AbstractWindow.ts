@@ -103,7 +103,7 @@ export default abstract class AbstractWindow extends Context {
 
                         // listen frame window unload event to destroy frame
                         frameWindow.addEventListener('unload', () => {
-                            this.destroyFrame(FrameType);
+                            this.destroyContext(FrameType);
                         });
                     }
                 }

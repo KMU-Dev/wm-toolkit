@@ -16,7 +16,7 @@ export default abstract class Application extends Context {
         if (PageType) {
             this.startPage(PageType, this, window);
             window.addEventListener('unload', () => {
-                this.destroyPage(PageType);
+                this.destroyContext(PageType);
             });
         }
 

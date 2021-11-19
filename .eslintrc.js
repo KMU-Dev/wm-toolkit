@@ -28,6 +28,10 @@ module.exports = {
             {
                 'allow': ['private-constructors', 'protected-constructors', 'methods', 'asyncMethods']
             }
-        ]
+        ],
+        '@typescript-eslint/no-explicit-any': [
+            'error',
+            { 'ignoreRestArgs': true },
+        ],
     },
 };
