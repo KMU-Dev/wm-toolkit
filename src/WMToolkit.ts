@@ -5,9 +5,6 @@ import RemoteConfigService from './service/remote-config.service';
 import TeachPage from './teach/TeachPage';
 
 export default class WMToolkit extends Application {
-    private readonly remoteConfigService = RemoteConfigService.getInstance();
-    private readonly changelogService = ChangelogService.getInstance();
-
     onStart() {
         // register pages
         this.registerPage(TeachPage, '/teach/index.php');
@@ -17,8 +14,11 @@ export default class WMToolkit extends Application {
     async onStarted() {
         this.initStorage();
 
-        await this.remoteConfigService.sync();
-        this.changelogService.showChangelog();
+        const remoteConfigService = RemoteConfigService.getInstance();
+        const changelogService = ChangelogService.getInstance();
+
+        await remoteConfigService.sync();
+        changelogService.showChangelog();
     }
 
     private initStorage() {
