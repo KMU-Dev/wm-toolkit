@@ -26,7 +26,7 @@ module.exports = {
         '@typescript-eslint/no-empty-function': [
             'error',
             {
-                'allow': ['private-constructors', 'protected-constructors', 'methods']
+                'allow': ['private-constructors', 'protected-constructors', 'methods', 'asyncMethods']
             }
         ]
     },

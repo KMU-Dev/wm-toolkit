@@ -19,6 +19,8 @@ export default abstract class Application extends Context {
                 this.destroyPage(PageType);
             });
         }
+
+        this.onStarted();
     }
 
     /**
@@ -27,6 +29,13 @@ export default abstract class Application extends Context {
      * You should register page in this function so that Application can start Page based on href.
      */
     protected onStart() {}
+
+    /**
+     * Lifecycle callback.
+     *
+     * This method is fired when Application start process finish.
+     */
+    protected onStarted() {}
 
     protected registerPage(PageType: typeof Page, href: string) {
         this.pageRegistry.set(href, PageType);
