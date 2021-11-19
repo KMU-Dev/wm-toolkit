@@ -1,4 +1,4 @@
-import WMToolkit from './app/WMToolkit';
+import WMToolkit from './WMToolkit';
 
 /*import Application from './app/Application';
 

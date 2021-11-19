@@ -1,7 +1,8 @@
-import Application from '../lib/Application';
-import ChangelogService from '../service/changelog.service';
-import RemoteConfigService from '../service/remote-config.service';
-import OfficePage from './OfficePage';
+import LeanPage from './learn/LearnPage';
+import Application from './lib/Application';
+import ChangelogService from './service/changelog.service';
+import RemoteConfigService from './service/remote-config.service';
+import TeachPage from './teach/TeachPage';
 
 export default class WMToolkit extends Application {
     private readonly remoteConfigService = RemoteConfigService.getInstance();
@@ -9,7 +10,8 @@ export default class WMToolkit extends Application {
 
     onStart() {
         // register pages
-        this.registerPage(OfficePage, '/teach/index.php');
+        this.registerPage(TeachPage, '/teach/index.php');
+        this.registerPage(LeanPage, '/learn/index.php');
     }
 
     async onStarted() {

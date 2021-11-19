@@ -63,7 +63,7 @@ export default abstract class AbstractWindow extends Context {
      */
     protected onUnload() {}
 
-    protected registerFrame(frame: HTMLFrameElement, href: string, FrameType: typeof Frame) {
+    protected registerFrame(FrameType: typeof Frame, frame: HTMLFrameElement, href: string) {
         let innerMap = this.frameRegistry.get(frame);
         if (!innerMap) {
             innerMap = new Map();
