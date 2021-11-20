@@ -1,4 +1,4 @@
-import Application from "./app/Application";
+import WMToolkit from './WMToolkit';
 
-const app = new Application();
+const app = new WMToolkit();
 app.start();

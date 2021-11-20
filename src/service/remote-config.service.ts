@@ -2,14 +2,20 @@ import ms from 'ms';
 import yaml from 'js-yaml';
 
 export default class RemoteConfigService {
+    private static instance: RemoteConfigService;
+
     private configUrl: string;
     private syncInterval: number;
     private lastSync: Date | undefined;
 
-    constructor() {
+    static getInstance() {
+        return this.instance || (this.instance = new this());
+    }
+
+    private constructor() {
         const remote: string = GM_getValue('remote');
         this.configUrl = new URL('/configuration.yaml', remote).toString();
-        this.syncInterval = ms(GM_getValue('sync_interval') as string);
+        this.syncInterval = ms(GM_getValue<string>('sync_interval'));
         this.lastSync = GM_getValue('last_sync') ? new Date(GM_getValue('last_sync')) : undefined;
     }
 
@@ -23,9 +29,9 @@ export default class RemoteConfigService {
                 return;
             }
 
-            const configurationStr = await response.blob().then(blob => blob.text());
+            const configurationStr = await response.blob().then((blob) => blob.text());
             const configuration = yaml.load(configurationStr) as Record<string, unknown>;
-            
+
             // load configuration to local storage
             for (const key in configuration) GM_setValue(key, configuration[key]);
 
