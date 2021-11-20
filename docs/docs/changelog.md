@@ -3,6 +3,30 @@ sidebar_position: 4
 title: 更新日誌
 ---
 
+## 0.5.0 {#0-5-0}
+
+### 🚀 新功能
+
+- 現在插件會記住你在建立題目時的分類了，只要你有勾選連續新增的選項，**插件就會自動代入你上一個題目的分類**
+
+### 🐛 抓臭蟲
+
+- 這個版本沒有發現任何臭蟲，如果你不小心抓到一個，請盡快告訴我們  
+https://github.com/KMU-Dev/wm-toolkit/issues
+
+### 🧰 維護
+
+- 重新撰寫了整個插件，讓程式碼更有架構，同時也減少插建的大小！
+- 更新 [@docusaurus/core@2.0.0-beta.9](https://www.npmjs.com/package/@docusaurus/core) 和 [@docusaurus/preset-classic@2.0.0-beta.9](https://www.npmjs.com/package/@docusaurus/preset-classic)
+
+### 📝 文件
+
+- **更新了 Block 2 期末的工作分配表，請大家務必在 2021/11/23 前認領範圍**
+- 新增**試卷排序規則**，詳情請見[試卷排序](./past-exam/create-test.md#試卷排序)
+- 修改**新增題目**中**修改分類**的說明，詳情請見[修改分類](./past-exam/add-question.md#修改分類)
+- 新增插件功能中題目分類的[連續新增](./extension/question-classification.md#連續新增)說明。
+
+
 ## 0.4.0 {#0-4-0}
 
 ### 🚀 新功能
