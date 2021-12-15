@@ -16,19 +16,18 @@ title: 認領考古
 考古範圍分配試算表：https://docs.google.com/spreadsheets/d/1lR2eK7eaIwhTFIGq0KTsgsOFxpvvwijs1QM7P3iSNXM/edit?usp=sharing
 
 :::info 資訊
-Block 2 期末考每人須完成** 4 份**考古。
+Block 3 期中考每人須完成** 3 份**考古。
 
-其中**呂汶諺**因期中範圍分配有誤，多做了一份考古，因此這次只需做 3 份考古。  
-而另外兩個除不進的範圍，依據抽籤結果**林若蓁**、**趙子賢**可以少做一次，因此也只要做 3 份即可。
+四個除不進的範圍，依據抽籤結果**洪煥鈞**、**呂汶諺**、**陳毅**、**鄒棋亘**可以少做一次，因此只要做 2 份即可。
 :::
 
 :::caution 警告
-由於前面幾份考古都須在 2021/11/24 前完成，請大家不要全部認領同個期限的考古，以免無法準時繳交。
+由於前面幾份考古都須在 2021/12/17 前完成，請大家不要全部認領同個期限的考古，以免無法準時繳交。
 :::
 
 <iframe
-    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpmESQIzTcft6vQxkBEQCixQyKBD2HsaDbHTbqljTIG5XAh7rpl-bWCsx5_JdHq-GwwR835aBHmzj2/pubhtml?gid=975517732&amp;single=true&amp;widget=true&amp;headers=false"
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpmESQIzTcft6vQxkBEQCixQyKBD2HsaDbHTbqljTIG5XAh7rpl-bWCsx5_JdHq-GwwR835aBHmzj2/pubhtml?gid=1575126360&amp;single=true&amp;widget=true&amp;headers=false"
     width="100%"
-    height="760px"
+    height="560px"
 >
 </iframe>
