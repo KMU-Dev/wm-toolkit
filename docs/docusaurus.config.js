@@ -35,6 +35,10 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          // You can also use your "G-" Measurement ID here.
+          trackingID: 'G-XRHJS73HRQ',
+        },
       }),
     ],
   ],
@@ -127,10 +131,6 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-      },
-      gtag: {
-        // You can also use your "G-" Measurement ID here.
-        trackingID: 'G-XRHJS73HRQ',
       },
     }),
 };
