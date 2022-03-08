@@ -13,12 +13,10 @@ title: 認領考古
 
 以下是考古分配範圍試算表的連結，請用**高醫 gap 帳號**登入填寫。
 
-考古範圍分配試算表：https://docs.google.com/spreadsheets/d/1lR2eK7eaIwhTFIGq0KTsgsOFxpvvwijs1QM7P3iSNXM/edit?usp=sharing
+考古範圍分配試算表：https://docs.google.com/spreadsheets/d/1lR2eK7eaIwhTFIGq0KTsgsOFxpvvwijs1QM7P3iSNXz/edit?usp=sharing
 
 :::info 資訊
-Block 4 期中考每人須完成** 2 份**考古。
-
-四個除不進的範圍，依據抽籤結果**張倬禕**、**王文晉**、**林若蓁**、**鄒棋亘**可以少做一次，因此只要做 1 份即可。
+Block 4 期末考每人須完成** 2 份**考古。
 :::
 
 :::caution 警告
@@ -26,8 +24,8 @@ Block 4 期中考每人須完成** 2 份**考古。
 :::
 
 <iframe
-    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpmESQIzTcft6vQxkBEQCixQyKBD2HsaDbHTbqljTIG5XAh7rpl-bWCsx5_JdHq-GwwR835aBHmzj2/pubhtml?gid=2085251083&amp;single=true&amp;widget=true&amp;headers=false"
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpmESQIzTcft6vQxkBEQCixQyKBD2HsaDbHTbqljTIG5XAh7rpl-bWCsx5_JdHq-GwwR835aBHmzj2/pubhtml?gid=954410099&amp;single=true&amp;widget=true&amp;headers=false"
     width="100%"
-    height="380px"
+    height="510px"
 >
 </iframe>
