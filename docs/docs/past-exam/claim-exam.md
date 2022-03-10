@@ -13,7 +13,7 @@ title: 認領考古
 
 以下是考古分配範圍試算表的連結，請用**高醫 gap 帳號**登入填寫。
 
-考古範圍分配試算表：https://docs.google.com/spreadsheets/d/1lR2eK7eaIwhTFIGq0KTsgsOFxpvvwijs1QM7P3iSNXz/edit?usp=sharing
+考古範圍分配試算表：https://docs.google.com/spreadsheets/d/1lR2eK7eaIwhTFIGq0KTsgsOFxpvvwijs1QM7P3iSNXM/edit?usp=sharing
 
 :::info 資訊
 Block 4 期末考每人須完成** 2 份**考古。
@@ -26,6 +26,6 @@ Block 4 期末考每人須完成** 2 份**考古。
 <iframe
     src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpmESQIzTcft6vQxkBEQCixQyKBD2HsaDbHTbqljTIG5XAh7rpl-bWCsx5_JdHq-GwwR835aBHmzj2/pubhtml?gid=954410099&amp;single=true&amp;widget=true&amp;headers=false"
     width="100%"
-    height="510px"
+    height="480px"
 >
 </iframe>
