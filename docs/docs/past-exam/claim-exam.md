@@ -16,7 +16,9 @@ title: 認領考古
 考古範圍分配試算表：https://docs.google.com/spreadsheets/d/1lR2eK7eaIwhTFIGq0KTsgsOFxpvvwijs1QM7P3iSNXM/edit?usp=sharing
 
 :::info 資訊
-Block 4 期末考每人須完成** 2 份**考古。
+Block 5 期中考每人須完成** 3 份**考古。
+
+6 個除不盡的範圍，依據抽籤結果**陳毅**、**呂汶諺**、**趙子賢**、**洪煥鈞**、**張倬禕**、**鄒棋亘**可以少做一次，因此只要做 2 份即可。
 :::
 
 :::caution 警告
@@ -24,8 +26,8 @@ Block 4 期末考每人須完成** 2 份**考古。
 :::
 
 <iframe
-    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpmESQIzTcft6vQxkBEQCixQyKBD2HsaDbHTbqljTIG5XAh7rpl-bWCsx5_JdHq-GwwR835aBHmzj2/pubhtml?gid=954410099&amp;single=true&amp;widget=true&amp;headers=false"
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpmESQIzTcft6vQxkBEQCixQyKBD2HsaDbHTbqljTIG5XAh7rpl-bWCsx5_JdHq-GwwR835aBHmzj2/pubhtml?gid=990854212&amp;single=true&amp;widget=true&amp;headers=false"
     width="100%"
-    height="480px"
+    height="520px"
 >
 </iframe>
