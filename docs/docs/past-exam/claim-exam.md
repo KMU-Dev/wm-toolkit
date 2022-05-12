@@ -13,12 +13,12 @@ title: 認領考古
 
 以下是考古分配範圍試算表的連結，請用**高醫 gap 帳號**登入填寫。
 
-考古範圍分配試算表：https://docs.google.com/spreadsheets/d/1lR2eK7eaIwhTFIGq0KTsgsOFxpvvwijs1QM7P3iSNXM/edit?usp=sharing#gid=944147910
+考古範圍分配試算表：https://docs.google.com/spreadsheets/d/1lR2eK7eaIwhTFIGq0KTsgsOFxpvvwijs1QM7P3iSNXM/edit?usp=sharing#gid=2144680857
 
 :::info 資訊
-Block 6 期中考每人須完成** 4 份**考古。
+Block 6 期末考每人須完成** 3 份**考古。
 
-3 個除不盡的範圍，依據抽籤結果**張倬禕**、**趙子賢**、**呂汶諺**、**洪煥鈞**、**王文晉**、**陳毅**可以少做一次，因此只要做 3 份即可。
+5 個除不盡的範圍，依據抽籤結果**林若蓁**、**鄒棋亘**、**趙子賢**可以少做一次，因此只要做 2 份即可。
 :::
 
 :::caution 警告
@@ -26,8 +26,8 @@ Block 6 期中考每人須完成** 4 份**考古。
 :::
 
 <iframe
-    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpmESQIzTcft6vQxkBEQCixQyKBD2HsaDbHTbqljTIG5XAh7rpl-bWCsx5_JdHq-GwwR835aBHmzj2/pubhtml?gid=944147910&amp;single=true&amp;widget=true&amp;headers=false"
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpmESQIzTcft6vQxkBEQCixQyKBD2HsaDbHTbqljTIG5XAh7rpl-bWCsx5_JdHq-GwwR835aBHmzj2/pubhtml?gid=2144680857&amp;single=true&amp;widget=true&amp;headers=false"
     width="100%"
-    height="720px"
+    height="600px"
 >
 </iframe>
