@@ -16,7 +16,7 @@ title: 認領考古
 考古範圍分配試算表：https://docs.google.com/spreadsheets/d/1lR2eK7eaIwhTFIGq0KTsgsOFxpvvwijs1QM7P3iSNXM/edit?usp=sharing#gid=1758848002
 
 :::info 資訊
-Block 7 期中考每人須完成** 5 份**考古。
+Block 7 期末考每人須完成** 5 份**考古。
 
 7 個除不盡的範圍，依據抽籤結果**林若蓁**、**鄒棋亘**、**張倬禕**、**王文晉**、**趙子賢**、**陳毅
 **、**洪煥鈞**可以少做一次，因此只要做 4 份即可。
