@@ -3,6 +3,31 @@ sidebar_position: 4
 title: 更新日誌
 ---
 
+## 0.6.0 {#0-6-0}
+
+### 🚀 新功能
+
+- 新增**解剖學**題目分類，按** Alt+9 **即可快速設定
+
+### 🐛 抓臭蟲
+
+- 這個版本沒有發現任何臭蟲，如果你不小心抓到一個，請盡快告訴我們  
+https://github.com/KMU-Dev/wm-toolkit/issues
+
+### 🧰 維護
+
+- 修復了許多安全漏洞，請盡速更新以保護你的資訊安全
+    - Exposure of Sensitive Information in eventsource (CVE-2022-1650)
+    - json-schema is vulnerable to Prototype Pollution (CVE-2021-3918)
+    - Terser insecure use of regular expressions before v4.8.1 and v5.14.2 leads to ReDoS (CVE-2022-25858)
+    - Inefficient Regular Expression Complexity in chalk/ansi-regex (CVE-2021-3807)
+    - Uncontrolled Resource Consumption in ansi-html (CVE-2021-23424)
+
+### 📝 文件
+
+- **更新了 Block 9 期中的工作分配表，請大家務必在 2022/10/12 前認領範圍**
+- 更新題目分類文件，加入解剖學選項
+
 ## 0.5.0 {#0-5-0}
 
 ### 🚀 新功能
