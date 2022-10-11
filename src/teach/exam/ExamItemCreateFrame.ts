@@ -59,6 +59,10 @@ export default class ExamItemCreateFrame extends Frame {
                     console.log('設定病理學');
                     this.setCategory(version, volume, '4', 10, section);
                     break;
+                case 'Digit9':
+                    console.log('設定解剖學')
+                    this.setCategory(version, volume, '4', 0, section);
+                    break;
             }
         }
     }
