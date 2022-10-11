@@ -54,7 +54,7 @@ module.exports = {
                 supportURL: "https://github.com/KMU-Dev/wm-toolkit/issues",
             },
             proxyScript: {
-                baseUrl: "http://127.0.0.1:8080",
+                baseUrl: "http://localhost:8080",
                 filename: "[basename].proxy.user.js",
                 enable: dev,
             },
