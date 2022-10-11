@@ -60,7 +60,7 @@ export default class ExamItemCreateFrame extends Frame {
                     this.setCategory(version, volume, '4', 10, section);
                     break;
                 case 'Digit9':
-                    console.log('設定解剖學')
+                    console.log('設定解剖學');
                     this.setCategory(version, volume, '4', 0, section);
                     break;
             }
