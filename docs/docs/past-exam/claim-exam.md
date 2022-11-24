@@ -13,21 +13,17 @@ title: 認領考古
 
 以下是考古分配範圍試算表的連結，請用**高醫 gap 帳號**登入填寫。
 
-考古範圍分配試算表：https://docs.google.com/spreadsheets/d/1lR2eK7eaIwhTFIGq0KTsgsOFxpvvwijs1QM7P3iSNXM/edit?usp=sharing#gid=1299469857
-
-:::caution 注意
-這次因為許多課程為神經解剖學，因此新增題目分類 **「解剖學」**，快捷鍵為 **Alt+9**，如無法使用請確認插件已成功[更新](../extension/install.md#更新)。
-:::
+考古範圍分配試算表：https://docs.google.com/spreadsheets/d/1lR2eK7eaIwhTFIGq0KTsgsOFxpvvwijs1QM7P3iSNXM/edit?usp=sharing#gid=736774260
 
 :::info 資訊
-Block 9 期末考每人須完成** 6 份**考古。
+Block 10 期末考每人須完成** 3 份**考古。
 
-2 個除不盡的範圍，依據抽籤結果**王文晉**、**洪煥鈞**、**陳毅**可以少做一次，因此只要做 5 份即可。
+3 個除不盡的範圍，依據抽籤結果**趙子賢**、**林若蓁**、**洪煥鈞**、**張倬禕**、**鄒棋亘**可以少做一次，因此只要做 2 份即可。
 :::
 
 <iframe
-    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpmESQIzTcft6vQxkBEQCixQyKBD2HsaDbHTbqljTIG5XAh7rpl-bWCsx5_JdHq-GwwR835aBHmzj2/pubhtml?gid=1299469857&amp;single=true&amp;widget=true&amp;headers=false"
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpmESQIzTcft6vQxkBEQCixQyKBD2HsaDbHTbqljTIG5XAh7rpl-bWCsx5_JdHq-GwwR835aBHmzj2/pubhtml?gid=736774260&amp;single=true&amp;widget=true&amp;headers=false"
     width="100%"
-    height="1220px"
+    height="560px"
 >
 </iframe>
