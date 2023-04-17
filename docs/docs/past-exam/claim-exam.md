@@ -13,17 +13,17 @@ title: 認領考古
 
 以下是考古分配範圍試算表的連結，請用**高醫 gap 帳號**登入填寫。
 
-考古範圍分配試算表：https://docs.google.com/spreadsheets/d/1lR2eK7eaIwhTFIGq0KTsgsOFxpvvwijs1QM7P3iSNXM/edit?usp=sharing#gid=1368040791
+考古範圍分配試算表：https://docs.google.com/spreadsheets/d/1lR2eK7eaIwhTFIGq0KTsgsOFxpvvwijs1QM7P3iSNXM/edit?usp=sharing#gid=547596583
 
 :::info 資訊
-Block 14 期中考每人須完成** 3 份**考古。
+Block 14 期末考每人須完成** 4 份**考古。
 
-4 個除不盡的範圍，依據抽籤結果**張倬禕**、**鄒棋亘**、**呂汶諺**、**林若蓁**可以少做一次，因此只要做 2 份即可。
+7 個除不盡的範圍，依據抽籤結果**趙子賢**可以少做一次，因此只要做 3 份即可。
 :::
 
 <iframe
-    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpmESQIzTcft6vQxkBEQCixQyKBD2HsaDbHTbqljTIG5XAh7rpl-bWCsx5_JdHq-GwwR835aBHmzj2/pubhtml?gid=1368040791&amp;single=true&amp;widget=true&amp;headers=false"
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpmESQIzTcft6vQxkBEQCixQyKBD2HsaDbHTbqljTIG5XAh7rpl-bWCsx5_JdHq-GwwR835aBHmzj2/pubhtml?gid=547596583&amp;single=true&amp;widget=true&amp;headers=false"
     width="100%"
-    height="560px"
+    height="820px"
 >
 </iframe>
