@@ -13,7 +13,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "jquery": "^3.6.0",
+    "jquery": "^3.6.2",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
     "ms": "^2.1.3"
