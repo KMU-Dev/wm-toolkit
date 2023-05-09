@@ -4,6 +4,7 @@ title: 認領考古
 ---
 
 import Confetti from 'react-confetti';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 # 認領考古
 
@@ -30,7 +31,11 @@ Block 15 考古每人須完成** 4 份**考古。
 >
 </iframe>
 
-<Confetti
-  width={window.innerWidth}
-  height={window.innerHeight}
-/>
+<BrowserOnly>
+  {() =>
+    <Confetti
+      width={window.innerWidth}
+      height={window.innerHeight}
+    />
+  }
+</BrowserOnly>

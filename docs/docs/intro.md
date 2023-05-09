@@ -26,6 +26,6 @@ title: 簡介
 
 在接下來的教學中，我們會詳細的介紹如何使用 E Learning 的測驗功能，並為題目建立正確的分類。此外，你也會學習如何用 WM Toolkit 這個好用的 Tampermonkey 腳本讓你在題目分類和建立測驗的過程中更順利。
 
-考古製作教學：[認領考古](past-exam/claim-exam.md)
+考古製作教學：[認領考古](past-exam/claim-exam.mdx)
 
 WM Toolkit 插件使用教學：[插件安裝](extension/install.md)
